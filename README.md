@@ -21,14 +21,6 @@ JavaScript
 Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/improvement).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/improvement).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License.
 
 Acknowledgements
 Bootstrap - Front-end framework for building responsive websites.
