@@ -1,4 +1,4 @@
-![Screenshot (189)](https://github.com/kalpesh5282/Calculation_Web/assets/157707791/8ac7476e-c116-4784-8e78-c3e2891e61cd)# Calculation_Web
+# Calculation_Web
 
 This is a web application for performing various calculations across different modules like geometry, numeric calculations, etc. The application is built using HTML, CSS, Bootstrap, and JavaScript, and it is designed to be responsive across different devices.
 
@@ -10,7 +10,7 @@ Usage
 Clone the repository to your local machine.
 bash
 Copy code
-git clone https://github.com/your-username/calculation-website.git
+git  https://github.com/kalpesh5282/Calculation_Web.git
 Open the index.html file in your web browser to access the website.
 Navigate through different modules using the navigation menu.
 Technologies Used
