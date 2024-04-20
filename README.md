@@ -3,7 +3,7 @@
 This is a web application for performing various calculations across different modules like geometry, numeric calculations, etc. The application is built using HTML, CSS, Bootstrap, and JavaScript, and it is designed to be responsive across different devices.
 
 Features
-Geometry Calculation Module: Allows users to perform calculations related to geometric shapes such as area, perimeter, volume, etc.
+Geometry Calculation Module: Allows users to perform calculations related to geometric shapes such as area, perimeter, volume, etc. 
 Numeric Calculation Module: Provides functionalities for performing basic arithmetic operations, including addition, subtraction, multiplication, and division.
 Other Modules: Additional modules can be added in the future to expand the functionality of the website.
 Usage
