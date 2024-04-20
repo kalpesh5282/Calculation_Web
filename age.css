@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.logo-img{
+    width: 3rem;
+    border-radius: 50%;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    margin-left: 2rem;
+  }
+  .btn{
+    background-color: rgb(37, 195, 37);
+  }
+  .btn:hover{
+    background-color: green;
+  }
+/* main section */
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+.age-calculator {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+#result{
+    margin-top: 1.5rem;
+}
+
+.introduction {
+    text-align: center;
+    width: 80%;
+}
+
+input[type="date"] {
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+
+
+/* Footer section */
+
+.footer {
+    background: #333;
+    color: #f8f3f3;
+    text-align: center;
+    height: 27vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+   
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    color: #f8f8f8;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 500px){
+    .container{
+        height: 99vh;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+      }
+     
+      .footer{
+        height: 55vh;
+      }
+  }

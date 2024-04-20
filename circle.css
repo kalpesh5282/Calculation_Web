@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.logo-img{
+    width: 3rem;
+    border-radius: 50%;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    margin-left: 2rem;
+  }
+  .btn{
+    background-color: rgb(37, 195, 37);
+  }
+  .btn:hover{
+    background-color: green;
+  }
+ 
+  .main-section{
+    height: 100vh;
+    background-image: url(./images/geometry-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.calculator {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group input {
+    width: calc(100% - 12px);
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-group input:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+.calculate-btn{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-left: 2.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+}
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.more-cal{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.links {
+    text-align: center;
+    margin-top: 20rem;
+    height: 45vh;
+}
+.links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.description {
+    margin-top: 3rem;
+    padding: 20px;
+    margin-left: 25.5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* footer */
+
+.footer {
+    background: #333;
+    color: #f8f3f3;
+    text-align: center;
+    height: 27vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+   
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    color: #f8f8f8;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+
+
+/* media Q */
+
+@media screen and (max-width: 500px){
+
+    .container {
+        display: flex;
+        height: 65vh;
+        width: 100%;
+    }
+    .calculate-btn{
+       
+        height: 2.5rem;
+        border-radius: 5px;
+        width:15rem;
+      margin-left: 0rem;
+        color: white;
+        background-color: green;
+    }
+    .result {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        }
+
+        .more-cal{
+            margin-top: 1rem;
+        }
+        .links{
+            height: 25vh;
+            margin-bottom: 8rem;
+            margin-top: 1px;
+        }
+        body{
+            height: 700px;
+        }
+        
+        .links a{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .calculator, .description {
+            max-width: 90%;
+        }
+        .description{
+            margin-left: 1rem;
+            margin-top: 0;
+        }
+        .footer-content {
+            flex-direction: column;
+            align-items: center;
+          }
+         
+          .footer{
+            height: 55vh;
+          }
+
+}

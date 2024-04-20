@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.logo-img{
+    width: 3rem;
+    border-radius: 50%;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    margin-left: 2rem;
+  }
+  .btn{
+    background-color: rgb(37, 195, 37);
+  }
+  .btn:hover{
+    background-color: green;
+  }
+
+  .full-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0; 
+}
+
+
+.content {
+    text-align: center; 
+}
+
+.logo {
+
+    height:22rem;
+    width: 31rem; 
+    margin-bottom: 30px; 
+}
+
+
+.login-message {
+    padding: 20px;
+    background-color: #90ee90; 
+    border-radius: 5px;
+    font-size: 24px; 
+    color: #333; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 5rem;
+}
+
+.footer {
+    background: #333;
+    color: #f8f3f3;
+    text-align: center;
+    height: 27vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+   
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    color: #f8f8f8;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+
+
+@media (max-width: 500px) {
+    .logo {
+    height:20rem;
+    width: 21rem; 
+    margin-bottom: 30px; 
+    }
+    .login-message {
+        font-size: 14px; 
+        padding: 15px;
+        width: 18rem;
+        margin-left: 2rem;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+      }
+     
+      .footer{
+        height: 55vh;
+      }
+}

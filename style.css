@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.logo-img{
+    width: 3rem;
+    border-radius: 50%;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    margin-left: 2rem;
+  }
+  .btn{
+    background-color: rgb(37, 195, 37);
+  }
+  .btn:hover{
+    background-color: green;
+  }
+  .head{
+    position: absolute;
+    color: white;
+    top: 13rem;
+  }
+  .head h1{
+    color: white;
+    font-size: 10rem;
+    font-family: 'Allison', cursive;
+  }
+  .title{
+    position: absolute;
+    font-size: 2rem;
+    left: 33rem;
+    top:  45rem;
+    font-weight: 8rem;
+  }
+  /* home section */
+  .home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* hero section */
+  .hersection{
+   
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+    padding: 1rem;
+    /* background-image: url(./images/cal2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 4rem;
+    background-image:repeating-linear-gradient(rgb(208, 233, 245), rgb(228, 141, 210));
+
+    justify-content: center;
+  }
+  .seemore{
+    color: black;
+  }
+  .box{
+    height: 27.5rem;
+    width: 23rem;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    background-color: rgb(254, 255, 255);
+    display: block;
+    color: aliceblue;
+    border-radius: 15px;
+    background-image:repeating-linear-gradient(rgb(75, 188, 240), rgb(118, 105, 234));
+    justify-content: center;
+    transition: transform .5s ease-in-out;
+    padding-top: .5rem;
+    margin-top: 2rem;
+    padding-left: 1.2rem;
+  
+  }
+  .box:hover{
+    transform: scale(1.1);
+    
+  }
+  .img-box{
+    height: 15rem;
+    width: 19.5rem;
+
+  }
+
+  /* second section */
+
+  .second-section{
+    height: 70vh;
+    width: 100%;
+    background-color:#FFCA3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .container{
+    width: 40%;
+    padding-bottom: 4rem;
+  }
+  .heading1{
+    position: relative;
+    font-size: 4rem;
+    left: 4.5rem;
+    bottom: 2.5rem;
+    
+  }
+  .heading2{
+    font-size: 1rem;
+  }
+  .button{
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 42%;
+    background-color: green;
+    border-radius: 20px;
+    border: none;
+    transition: transform .5s ease-in-out;
+  }
+  .button:hover{
+    transform: scale(1.1);
+  }
+  /* currnecy converter */
+  .currency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  background-image: url(./images/curency2.jpg);
+  }
+  
+.converter-container {
+  width: 90%;
+  max-width: 400px;
+  height: 80%;
+  background-color: #f3f5f5;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.currency-heading{
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+/* age section */
+.age-section{
+  width: 100%;
+  height: 80vh;
+  background-color:#82b3fc;
+}
+.age-hading{
+  position: relative;
+  padding-top: 3rem;
+  font-size: 3rem;
+  padding-left: 30.8rem;
+  color: white;
+}
+.agedescription{
+  height: 10rem;
+  width: 35rem;
+  position: relative;
+  margin-left: 25rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-gap-override:1rem ;
+}
+.age-btn{
+  position: relative;
+  margin-left: 31.7rem;
+  height: 5rem;
+  background-color:#25C325;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: none;
+  width: 19rem;
+  transition: transform .5s ease-in-out;
+}
+.age-btn:hover{
+ 
+    transform: scale(1.1);
+    color: white;
+}
+
+  /* description section */
+
+  .description{
+    height: 85vh;
+    width: 100%;
+  }
+  .Welcome{
+    position: absolute;
+    left: 3rem;
+    top: 112rem;
+    font-size: 3rem;
+  }
+  .math-description{
+    position: absolute;
+    top: 120rem;
+
+    width: 45%;
+    height: 18rem;
+    left: 3rem;
+    font-size: 1.2rem;
+  }
+  .math-image{
+    position: relative;
+    left:42rem;
+    bottom: 20rem;
+    width:20% ;
+    border-radius: 15px;
+  }
+  .cgpa-container{
+    width: 100%;
+    height:70vh;
+    background-color: lightgray;
+  }
+
+  /* get in toch */
+  .inquiry-section{
+    height: 125vh;
+    width: 100%;
+    padding-top: 1rem;
+    background-image:repeating-linear-gradient(rgb(138, 245, 150), rgb(118, 105, 234));
+
+  }
+  
+  .container-toch {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 42rem;
+    position: relative;
+    top: 0px;
+}
+
+.container-toch h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 70px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+  background: #333;
+  color: #f8f3f3;
+  text-align: center;
+  height: 27vh;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+ 
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  color: #f8f8f8;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+
+
+  /* media Q */
+  @media screen and (max-width: 500px){
+    .hersection{
+      display: block;
+    height: 100%;
+    
+    }
+    .box{
+     margin-top: 15px;
+     width: 20rem;
+    }
+    .head .cal-title {
+    position: absolute;
+    font-size: 85px;
+    top: 11rem;
+    left: 2rem;
+  
+
+
+    }
+    .img-box{
+      height: 15rem;
+      width: 17rem;
+      border-radius: 5px;
+  
+    }
+    .head{
+      position: absolute;
+      color: white;
+      left: 2rem;
+      top: 10rem;
+      
+    }
+    h1,.heading1{
+      font-size: 2.1rem; 
+      width: 200px;
+      position: absolute;
+      top: 141.5rem;
+      left: 4.5rem;
+    }
+    /* currencey */
+    .converter-container {
+      width: 98%;
+      max-width: 400px;
+      height: 80%;
+      background-color: #f3f5f5;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+    .input-group{
+      width: 21rem;
+      margin-top: 2rem;
+      
+    }
+    .currency-heading{
+      font-size: 20px;
+      top: 200rem;
+      position: absolute;
+    }
+
+
+    /* age  */
+    .age-section{
+      height: 65vh;
+    }
+    .age-hading{
+      position: relative;
+      padding-top: 3rem;
+      font-size: 2rem;
+      padding-left: 2.8rem;
+      color: white;
+    }
+    .agedescription{
+      height: 10rem;
+      width: 18rem;
+    
+      position: relative;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      font-size: 18px;
+     
+    }
+    .age-btn{
+      position: relative;
+      margin-left: 4rem;
+      height: 5rem;
+      background-color: #25C325;
+      font-size: 1rem;
+      color: white;
+      border-radius: 25px;
+      border: none;
+      margin-top: 4rem;
+      width: 12rem;
+      transition: transform .5s ease-in-out;
+    }
+    .second-section{
+      height: 55vh;
+    }
+  p.heading2{
+     
+      width: 260px;
+      font-size: 1rem;
+     right: 3rem;
+      top: 146rem;
+      position: absolute;
+  
+    }
+    .button{
+      height: 5.5rem;
+      width: 15rem;
+      font-size: 1.2rem;
+      position: absolute;
+      left: 3rem;
+      top: 153rem;
+
+    }
+    .title{
+      position: absolute;
+
+      font-size: 1.5rem;
+      left: 3.5rem;
+      top: 52.5rem;
+      font-weight: 8rem;
+    }
+    .box{
+      height: 27rem;
+    }
+/* math description */
+.description{
+  height: 60vh;
+  width: 100%;
+
+}
+    .Welcome{
+      position: absolute;
+      left: 3rem;
+      top: 166.2rem;
+      font-size:2rem;
+    }
+    .math-description{
+      position: absolute;
+      top: 174rem;
+      width: 85%;
+      height: 18rem;
+      left: 2rem;
+      font-size: 1rem;
+    }
+    .math-image{
+      display: none;
+    
+    }
+    .inquiry-section{
+      height: 92vh;
+    }
+    /* get in toch */
+    .container-toch {
+      padding: 10px;
+  }
+  .container-toch{
+    height: 40rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .footer{
+    height: 55vh;
+  }
+  }
