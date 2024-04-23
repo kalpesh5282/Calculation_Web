@@ -371,9 +371,9 @@ button:hover {
     .hersection{
       display: block;
        height: 198vh;
-       
-
-    
+    }
+     .cal-title{
+      font-size: 1rem;
     }
     .box{
      /* margin-top: 15px; */
