@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 
 
 *{
@@ -237,39 +238,39 @@ button:hover {
     color: white;
 }
 
-  /* description section */
-
-  .description{
-    height: 85vh;
-    width: 100%;
-  }
-  .Welcome{
-    position: absolute;
-    left: 3rem;
-    top: 112rem;
-    font-size: 3rem;
-  }
+  /*Math  description section */
   .math-description{
-    position: absolute;
-    top: 120rem;
-
-    width: 45%;
-    height: 18rem;
-    left: 3rem;
-    font-size: 1.2rem;
-  }
-  .math-image{
-    position: relative;
-    left:42rem;
-    bottom: 20rem;
-    width:20% ;
-    border-radius: 15px;
-  }
-  .cgpa-container{
+    height: 100vh;
     width: 100%;
-    height:70vh;
-    background-color: lightgray;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .description{
+    height: 80%;
+    width: 45%;
+    padding: 20px;
+  }
+  .image{
+    height: 80%;
+    width: 45%;
+    background-color: #25C325;
+    background-image: url(./images/cal-image.jpg);
+
+  }
+  .description-heading{
+ font-family: "Lugrasimo", cursive;
+ 
+  }
+  .para{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+
+
+
 
   /* get in toch */
   .inquiry-section{
@@ -511,29 +512,17 @@ button:hover {
       height: 27rem;
     }
 /* math description */
-.description{
-  height: 60vh;
-  width: 100%;
 
+.math-description{
+  display: none;
 }
-    .Welcome{
-      position: absolute;
-      left: 3rem;
-      top: 166.2rem;
-      font-size:2rem;
-    }
-    .math-description{
-      position: absolute;
-      top: 174rem;
-      width: 85%;
-      height: 18rem;
-      left: 2rem;
-      font-size: 1rem;
-    }
-    .math-image{
-      display: none;
-    
-    }
+
+
+
+
+
+
+   
     .inquiry-section{
       height: 92vh;
     }
